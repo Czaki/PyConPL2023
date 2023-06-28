@@ -1,0 +1,5 @@
+magicgui
+jupyter
+jupyterlab
+superqt
+napari[pyqt, all]
