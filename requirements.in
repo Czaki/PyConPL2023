@@ -2,4 +2,5 @@ magicgui
 jupyter
 jupyterlab
 superqt
-napari[pyqt, all]
+napari[pyqt, all]>=0.4.18rc2
+PartSeg
