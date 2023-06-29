@@ -60,7 +60,6 @@ def previous_image(viewer):
 # key binding to select a good image
 @viewer.bind_key('Enter')
 def valid_image(viewer):
-    print("aaaa")
     image_path = viewer.layers['image'].metadata['image_path']
     output_path = Path(DIRECTORY_FOR_GOOD_IMAGES) / image_path.name
     image_path.rename(output_path)
